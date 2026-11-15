@@ -28,6 +28,7 @@ npm run lint:primitives         # fails on a control without a shared class
 - All four tools declare `premiumDefault: true` and `priceCentsDefault`. The paywall lives in the site and `tds-ext-tools-pkg`.
 - Ship no CSS. `component` is a package subpath. Tool `id` and `slug` stay unique.
 - Stay inside the `0.2.x` line. The site pins `^0.2.0`, and a 0.x caret is minor-locked.
+- Follows the TDS quality standard (`../tds-ops/standards/quality.md`): no AI slop, clean code.
 
 ## Topic files
 

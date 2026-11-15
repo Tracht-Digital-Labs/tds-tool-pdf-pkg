@@ -30,7 +30,7 @@ export default defineToolPack({
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "PDF komprimieren — Dateigröße verkleinern",
+        title: "PDF komprimieren: Dateigröße verkleinern",
         description:
           "PDF verkleinern ohne Upload: eingebettete Bilder werden im Browser neu berechnet, der Text bleibt unangetastet. Für Anhänge, die zu groß zum Versenden sind.",
       },
@@ -48,7 +48,7 @@ export default defineToolPack({
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "PDF-Wasserzeichen einfügen — Text oder Bild",
+        title: "PDF-Wasserzeichen einfügen: Text oder Bild",
         description:
           "Wasserzeichen ins PDF setzen: „Entwurf“, „Vertraulich“ oder das eigene Logo, mit einstellbarem Winkel und einstellbarer Deckkraft. Läuft lokal im Browser.",
       },
@@ -59,14 +59,14 @@ export default defineToolPack({
       name: "Bilder zu PDF",
       category: "media",
       description:
-        "Mehrere Fotos oder Scans in ein einziges PDF zusammenfassen — mit Seitenformat, Ausrichtung, Rand und frei sortierbarer Reihenfolge.",
+        "Mehrere Fotos oder Scans in ein einziges PDF zusammenfassen, mit Seitenformat, Ausrichtung, Rand und frei sortierbarer Reihenfolge.",
       icon: "images",
       keywords: ["bilder", "pdf", "scan", "jpg", "png", "zusammenfassen"],
       component: "@tracht-digital-solutions/tds-tool-pdf/tools/ImagesToPdf.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "Bilder zu PDF zusammenfügen — JPG und PNG",
+        title: "Bilder zu PDF zusammenfügen: JPG und PNG",
         description:
           "Aus abfotografierten Belegen und Scans ein sauberes PDF machen: Reihenfolge festlegen, Seitenformat wählen, fertig. Ohne Upload, direkt im Browser.",
       },
@@ -77,14 +77,14 @@ export default defineToolPack({
       name: "PDF zu Bildern",
       category: "media",
       description:
-        "Einzelne PDF-Seiten als PNG oder JPG herausrechnen, in wählbarer Auflösung — für Präsentationen, Vorschaubilder oder den Druck einer Seite.",
+        "Einzelne PDF-Seiten als PNG oder JPG herausrechnen, in wählbarer Auflösung, für Präsentationen, Vorschaubilder oder den Druck einer Seite.",
       icon: "file-image",
       keywords: ["pdf", "bild", "png", "jpg", "seite", "exportieren", "umwandeln"],
       component: "@tracht-digital-solutions/tds-tool-pdf/tools/PdfToImages.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
-        title: "PDF zu Bildern — Seiten als PNG oder JPG",
+        title: "PDF zu Bildern: Seiten als PNG oder JPG",
         description:
           "PDF-Seiten in Bilder umwandeln: Auflösung und Format wählen, einzelne Seiten oder alle. Die Datei verlässt dabei zu keinem Zeitpunkt den Rechner.",
       },

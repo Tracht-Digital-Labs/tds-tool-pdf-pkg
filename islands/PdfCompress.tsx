@@ -28,7 +28,7 @@ const STRINGS = {
     needOne: "Bitte ein PDF wählen.",
     failed: "Das PDF konnte nicht verarbeitet werden.",
     nothingToDo:
-      "In diesem PDF ließ sich nichts verkleinern — es enthält keine neu berechenbaren Bilder. Das ist bei reinen Textdokumenten normal.",
+      "In diesem PDF ließ sich nichts verkleinern, es enthält keine neu berechenbaren Bilder. Das ist bei reinen Textdokumenten normal.",
     choosePdf: "PDF auswählen",
     dropHint: "oder hierher ziehen",
     dropActive: "Loslassen zum Hinzufügen",
@@ -42,13 +42,13 @@ const STRINGS = {
     result: (before, after, percent, images) =>
       `${images} Bild(er) neu berechnet: ${before} → ${after} (${percent} kleiner).`,
     grew:
-      "Das Ergebnis wäre größer als das Original gewesen — die Datei ist bereits gut komprimiert und wurde unverändert gelassen.",
+      "Das Ergebnis wäre größer als das Original gewesen, die Datei ist bereits gut komprimiert und wurde unverändert gelassen.",
   },
   en: {
     needOne: "Please choose a PDF.",
     failed: "The PDF could not be processed.",
     nothingToDo:
-      "Nothing in this PDF could be made smaller — it holds no images that can be recomputed. That is normal for a pure text document.",
+      "Nothing in this PDF could be made smaller, it holds no images that can be recomputed. That is normal for a pure text document.",
     choosePdf: "Choose a PDF",
     dropHint: "or drag it here",
     dropActive: "Release to add",
@@ -62,7 +62,7 @@ const STRINGS = {
     result: (before, after, percent, images) =>
       `Recomputed ${images} image(s): ${before} → ${after} (${percent} smaller).`,
     grew:
-      "The result would have been larger than the original — the file is already well compressed and was left untouched.",
+      "The result would have been larger than the original, the file is already well compressed and was left untouched.",
   },
 } satisfies Record<Lang, Strings>;
 
