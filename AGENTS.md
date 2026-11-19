@@ -2,7 +2,7 @@
 
 Tool pack for the public tools platform with four **premium** PDF tools: compress,
 watermark, images to PDF and PDF to images. All run fully client-side. It builds against
-`@tracht-digital-solutions/tds-tools-contract` and is composed into `tds-tools-frontend`
+`@tracht-digital-labs/tds-tools-contract` and is composed into `tds-tools-frontend`
 at build time.
 
 Platform model: `tds-tools-contract-pkg/AGENTS.md`. Operator handbook:

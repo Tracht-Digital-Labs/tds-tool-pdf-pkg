@@ -1,4 +1,4 @@
-import { defineToolPack, defineTool } from "@tracht-digital-solutions/tds-tools-contract";
+import { defineToolPack, defineTool } from "@tracht-digital-labs/tds-tools-contract";
 
 /**
  * The PDF toolkit: four premium tools that all run entirely in the visitor's
@@ -26,7 +26,7 @@ export default defineToolPack({
         "PDF-Dateien verkleinern, indem eingebettete Bilder neu berechnet werden. Seitenaufbau und Text bleiben erhalten, die Datei bleibt versandfähig.",
       icon: "shrink",
       keywords: ["pdf", "komprimieren", "verkleinern", "dateigröße", "optimieren"],
-      component: "@tracht-digital-solutions/tds-tool-pdf/tools/PdfCompress.astro",
+      component: "@tracht-digital-labs/tds-tool-pdf/tools/PdfCompress.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
@@ -44,7 +44,7 @@ export default defineToolPack({
         "Wasserzeichen und Stempel in ein PDF setzen: eigener Text oder ein Bild, frei in Größe, Winkel, Deckkraft, Farbe und Seitenauswahl.",
       icon: "stamp",
       keywords: ["pdf", "wasserzeichen", "stempel", "entwurf", "vertraulich", "kopie"],
-      component: "@tracht-digital-solutions/tds-tool-pdf/tools/PdfWatermark.astro",
+      component: "@tracht-digital-labs/tds-tool-pdf/tools/PdfWatermark.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
@@ -62,7 +62,7 @@ export default defineToolPack({
         "Mehrere Fotos oder Scans in ein einziges PDF zusammenfassen, mit Seitenformat, Ausrichtung, Rand und frei sortierbarer Reihenfolge.",
       icon: "images",
       keywords: ["bilder", "pdf", "scan", "jpg", "png", "zusammenfassen"],
-      component: "@tracht-digital-solutions/tds-tool-pdf/tools/ImagesToPdf.astro",
+      component: "@tracht-digital-labs/tds-tool-pdf/tools/ImagesToPdf.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {
@@ -80,7 +80,7 @@ export default defineToolPack({
         "Einzelne PDF-Seiten als PNG oder JPG herausrechnen, in wählbarer Auflösung, für Präsentationen, Vorschaubilder oder den Druck einer Seite.",
       icon: "file-image",
       keywords: ["pdf", "bild", "png", "jpg", "seite", "exportieren", "umwandeln"],
-      component: "@tracht-digital-solutions/tds-tool-pdf/tools/PdfToImages.astro",
+      component: "@tracht-digital-labs/tds-tool-pdf/tools/PdfToImages.astro",
       premiumDefault: true,
       priceCentsDefault: 500,
       seo: {

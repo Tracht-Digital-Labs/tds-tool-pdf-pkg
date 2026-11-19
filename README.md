@@ -1,4 +1,4 @@
-# @tracht-digital-solutions/tds-tool-pdf
+# @tracht-digital-labs/tds-tool-pdf
 
 PDF tools for the **TDS tools platform** (`tds-tools-frontend`). Fully
 client-side — nothing is uploaded, which is the point: the documents people want

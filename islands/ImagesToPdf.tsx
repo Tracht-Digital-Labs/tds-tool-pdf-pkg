@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { PDFDocument } from "pdf-lib";
 import { PAGE_SIZES, downloadPdf, mm, reencode, type Lang, type PageSizeKey } from "./shared";
-import { FileDropZone } from "@tracht-digital-solutions/tds-shared/dropzone";
-import { Alert } from "@tracht-digital-solutions/tds-shared/alert";
+import { FileDropZone } from "@tracht-digital-labs/tds-shared/dropzone";
+import { Alert } from "@tracht-digital-labs/tds-shared/alert";
 
 type Orientation = "portrait" | "landscape" | "auto";
 type Fit = "fit" | "fill";

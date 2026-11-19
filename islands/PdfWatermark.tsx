@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { PDFDocument, StandardFonts, degrees, rgb } from "pdf-lib";
 import { downloadPdf, parseRange, toWinAnsi, type Lang } from "./shared";
-import { FileDropZone } from "@tracht-digital-solutions/tds-shared/dropzone";
-import { Alert } from "@tracht-digital-solutions/tds-shared/alert";
+import { FileDropZone } from "@tracht-digital-labs/tds-shared/dropzone";
+import { Alert } from "@tracht-digital-labs/tds-shared/alert";
 
 type Placement = "diagonal" | "center" | "footer" | "tile";
 

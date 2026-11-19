@@ -5,7 +5,7 @@
  *
  * See the tools-site convention: labels are translated, logic is not.
  */
-import { downloadBytes } from "@tracht-digital-solutions/tds-shared/download";
+import { downloadBytes } from "@tracht-digital-labs/tds-shared/download";
 
 export type Lang = "de" | "en";
 
@@ -13,7 +13,7 @@ export type Lang = "de" | "en";
  * Downloads go through tds-shared (`./download`): the link is attached, and
  * the object URL is revoked after Firefox has read it.
  */
-export { downloadBlob } from "@tracht-digital-solutions/tds-shared/download";
+export { downloadBlob } from "@tracht-digital-labs/tds-shared/download";
 
 /** pdf-lib bytes as a `.pdf` download (the shared helper copies the view first). */
 export function downloadPdf(bytes: Uint8Array, name: string): void {
@@ -21,7 +21,7 @@ export function downloadPdf(bytes: Uint8Array, name: string): void {
 }
 
 /** Human-readable byte size in the visitor's language (tds-shared `formatBytes`). */
-export { formatBytes } from "@tracht-digital-solutions/tds-shared/format";
+export { formatBytes } from "@tracht-digital-labs/tds-shared/format";
 
 /**
  * Parse "1-3,5" (1-indexed) into a sorted, de-duped 0-indexed page list.
